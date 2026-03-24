@@ -1,0 +1,50 @@
+/* assets/style.css */
+.stApp {
+    background-color: #0e1117;
+}
+
+.main-header {
+    background: linear-gradient(90deg, #1E88E5, #42a5f5);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.metric-card{
+
+
+    transition: transform 0.3s;
+}
+
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.news-item {
+    transition: background-color 0.3s;
+}
+
+.news-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
